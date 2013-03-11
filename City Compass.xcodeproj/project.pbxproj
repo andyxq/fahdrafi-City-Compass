@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983594CE141D1E7C00884B91 /* compassIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983594CC141D1E7C00884B91 /* compassIcon@2x.png */; };
+		983594CF141D1E7C00884B91 /* compassIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 983594CD141D1E7C00884B91 /* compassIcon.png */; };
+		983594D3141D207C00884B91 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 983594D1141D207C00884B91 /* info.png */; };
+		983594D4141D207C00884B91 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983594D2141D207C00884B91 /* info@2x.png */; };
+		9838A87A141AD91000750AD2 /* FRCurvedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9838A879141AD91000750AD2 /* FRCurvedTextView.m */; };
+		9838A87C141AD98700750AD2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9838A87B141AD98700750AD2 /* CoreText.framework */; };
+		984C1E5F141D830B00BA4551 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C1E5E141D830B00BA4551 /* icon.png */; };
+		984C1E61141D831C00BA4551 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C1E60141D831C00BA4551 /* icon@2x.png */; };
+		984C1E63141D832800BA4551 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C1E62141D832800BA4551 /* Default.png */; };
+		984C1E65141D837F00BA4551 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C1E64141D837F00BA4551 /* Default@2x.png */; };
+		987550E114195354002E2390 /* BSGoogleV2KmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550DE14195354002E2390 /* BSGoogleV2KmlParser.m */; };
+		987550E214195354002E2390 /* BSGoogleV3KmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550E014195354002E2390 /* BSGoogleV3KmlParser.m */; };
+		987550EB14195362002E2390 /* BSForwardGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550E414195362002E2390 /* BSForwardGeocoder.m */; };
+		987550EC14195362002E2390 /* BSKmlResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550E614195362002E2390 /* BSKmlResult.m */; };
+		987550ED14195362002E2390 /* BSAddressComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550E814195362002E2390 /* BSAddressComponent.m */; };
+		987550EE14195362002E2390 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 987550EA14195362002E2390 /* NSString+URLEncode.m */; };
+		98C6D952141AECF60066D468 /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C6D951141AECF60066D468 /* needle.png */; };
+		98D6752B1419A73000A8C2C7 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D6752A1419A73000A8C2C7 /* compass.png */; };
+		98F8D50F1418D34B001F9E1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D50E1418D34B001F9E1E /* UIKit.framework */; };
+		98F8D5111418D34B001F9E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D5101418D34B001F9E1E /* Foundation.framework */; };
+		98F8D5131418D34B001F9E1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D5121418D34B001F9E1E /* CoreGraphics.framework */; };
+		98F8D5191418D34B001F9E1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98F8D5171418D34B001F9E1E /* InfoPlist.strings */; };
+		98F8D51B1418D34B001F9E1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8D51A1418D34B001F9E1E /* main.m */; };
+		98F8D51F1418D34B001F9E1E /* City_CompassAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8D51E1418D34B001F9E1E /* City_CompassAppDelegate.m */; };
+		98F8D5221418D34B001F9E1E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98F8D5201418D34B001F9E1E /* MainWindow.xib */; };
+		98F8D5251418D34C001F9E1E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8D5241418D34C001F9E1E /* FirstViewController.m */; };
+		98F8D5281418D34C001F9E1E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8D5271418D34C001F9E1E /* SecondViewController.m */; };
+		98F8D52B1418D34C001F9E1E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98F8D5291418D34C001F9E1E /* FirstView.xib */; };
+		98F8D52E1418D34C001F9E1E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98F8D52C1418D34C001F9E1E /* SecondView.xib */; };
+		98F8D5371418F4B6001F9E1E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8D5361418F4B6001F9E1E /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		983594CC141D1E7C00884B91 /* compassIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassIcon@2x.png"; sourceTree = "<group>"; };
+		983594CD141D1E7C00884B91 /* compassIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassIcon.png; sourceTree = "<group>"; };
+		983594D1141D207C00884B91 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		983594D2141D207C00884B91 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		9838A878141AD91000750AD2 /* FRCurvedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRCurvedTextView.h; sourceTree = "<group>"; };
+		9838A879141AD91000750AD2 /* FRCurvedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRCurvedTextView.m; sourceTree = "<group>"; };
+		9838A87B141AD98700750AD2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		984C1E5E141D830B00BA4551 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		984C1E60141D831C00BA4551 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		984C1E62141D832800BA4551 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		984C1E64141D837F00BA4551 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		987550DD14195354002E2390 /* BSGoogleV2KmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGoogleV2KmlParser.h; sourceTree = "<group>"; };
+		987550DE14195354002E2390 /* BSGoogleV2KmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSGoogleV2KmlParser.m; sourceTree = "<group>"; };
+		987550DF14195354002E2390 /* BSGoogleV3KmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGoogleV3KmlParser.h; sourceTree = "<group>"; };
+		987550E014195354002E2390 /* BSGoogleV3KmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSGoogleV3KmlParser.m; sourceTree = "<group>"; };
+		987550E314195362002E2390 /* BSForwardGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSForwardGeocoder.h; sourceTree = "<group>"; };
+		987550E414195362002E2390 /* BSForwardGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSForwardGeocoder.m; sourceTree = "<group>"; };
+		987550E514195362002E2390 /* BSKmlResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKmlResult.h; sourceTree = "<group>"; };
+		987550E614195362002E2390 /* BSKmlResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKmlResult.m; sourceTree = "<group>"; };
+		987550E714195362002E2390 /* BSAddressComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAddressComponent.h; sourceTree = "<group>"; };
+		987550E814195362002E2390 /* BSAddressComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAddressComponent.m; sourceTree = "<group>"; };
+		987550E914195362002E2390 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		987550EA14195362002E2390 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		98C6D951141AECF60066D468 /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
+		98D6752A1419A73000A8C2C7 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		98F8D50A1418D34B001F9E1E /* City Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F8D50E1418D34B001F9E1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98F8D5101418D34B001F9E1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98F8D5121418D34B001F9E1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98F8D5161418D34B001F9E1E /* City Compass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "City Compass-Info.plist"; sourceTree = "<group>"; };
+		98F8D5181418D34B001F9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98F8D51A1418D34B001F9E1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98F8D51C1418D34B001F9E1E /* City Compass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "City Compass-Prefix.pch"; sourceTree = "<group>"; };
+		98F8D51D1418D34B001F9E1E /* City_CompassAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City_CompassAppDelegate.h; sourceTree = "<group>"; };
+		98F8D51E1418D34B001F9E1E /* City_CompassAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City_CompassAppDelegate.m; sourceTree = "<group>"; };
+		98F8D5211418D34B001F9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		98F8D5231418D34C001F9E1E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		98F8D5241418D34C001F9E1E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		98F8D5261418D34C001F9E1E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		98F8D5271418D34C001F9E1E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		98F8D52A1418D34C001F9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		98F8D52D1418D34C001F9E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		98F8D5361418F4B6001F9E1E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98F8D5071418D34B001F9E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9838A87C141AD98700750AD2 /* CoreText.framework in Frameworks */,
+				98F8D5371418F4B6001F9E1E /* CoreLocation.framework in Frameworks */,
+				98F8D50F1418D34B001F9E1E /* UIKit.framework in Frameworks */,
+				98F8D5111418D34B001F9E1E /* Foundation.framework in Frameworks */,
+				98F8D5131418D34B001F9E1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9838A876141AD8EF00750AD2 /* Curved Text */ = {
+			isa = PBXGroup;
+			children = (
+				9838A878141AD91000750AD2 /* FRCurvedTextView.h */,
+				9838A879141AD91000750AD2 /* FRCurvedTextView.m */,
+			);
+			name = "Curved Text";
+			sourceTree = "<group>";
+		};
+		987550DB14195337002E2390 /* Forward GeoCoder */ = {
+			isa = PBXGroup;
+			children = (
+				987550DC14195345002E2390 /* Parsers */,
+				987550E314195362002E2390 /* BSForwardGeocoder.h */,
+				987550E414195362002E2390 /* BSForwardGeocoder.m */,
+				987550E514195362002E2390 /* BSKmlResult.h */,
+				987550E614195362002E2390 /* BSKmlResult.m */,
+				987550E714195362002E2390 /* BSAddressComponent.h */,
+				987550E814195362002E2390 /* BSAddressComponent.m */,
+				987550E914195362002E2390 /* NSString+URLEncode.h */,
+				987550EA14195362002E2390 /* NSString+URLEncode.m */,
+			);
+			name = "Forward GeoCoder";
+			sourceTree = "<group>";
+		};
+		987550DC14195345002E2390 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				987550DD14195354002E2390 /* BSGoogleV2KmlParser.h */,
+				987550DE14195354002E2390 /* BSGoogleV2KmlParser.m */,
+				987550DF14195354002E2390 /* BSGoogleV3KmlParser.h */,
+				987550E014195354002E2390 /* BSGoogleV3KmlParser.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		98E8DE9A141BE472006A4DF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				984C1E62141D832800BA4551 /* Default.png */,
+				984C1E64141D837F00BA4551 /* Default@2x.png */,
+				984C1E60141D831C00BA4551 /* icon@2x.png */,
+				984C1E5E141D830B00BA4551 /* icon.png */,
+				983594D1141D207C00884B91 /* info.png */,
+				983594D2141D207C00884B91 /* info@2x.png */,
+				983594CC141D1E7C00884B91 /* compassIcon@2x.png */,
+				983594CD141D1E7C00884B91 /* compassIcon.png */,
+				98D6752A1419A73000A8C2C7 /* compass.png */,
+				98C6D951141AECF60066D468 /* needle.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		98F8D4FF1418D34A001F9E1E = {
+			isa = PBXGroup;
+			children = (
+				98F8D5141418D34B001F9E1E /* City Compass */,
+				98F8D50D1418D34B001F9E1E /* Frameworks */,
+				98F8D50B1418D34B001F9E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98F8D50B1418D34B001F9E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98F8D50A1418D34B001F9E1E /* City Compass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98F8D50D1418D34B001F9E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9838A87B141AD98700750AD2 /* CoreText.framework */,
+				98F8D5361418F4B6001F9E1E /* CoreLocation.framework */,
+				98F8D50E1418D34B001F9E1E /* UIKit.framework */,
+				98F8D5101418D34B001F9E1E /* Foundation.framework */,
+				98F8D5121418D34B001F9E1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98F8D5141418D34B001F9E1E /* City Compass */ = {
+			isa = PBXGroup;
+			children = (
+				9838A876141AD8EF00750AD2 /* Curved Text */,
+				987550DB14195337002E2390 /* Forward GeoCoder */,
+				98F8D51D1418D34B001F9E1E /* City_CompassAppDelegate.h */,
+				98F8D51E1418D34B001F9E1E /* City_CompassAppDelegate.m */,
+				98F8D5201418D34B001F9E1E /* MainWindow.xib */,
+				98F8D5231418D34C001F9E1E /* FirstViewController.h */,
+				98F8D5241418D34C001F9E1E /* FirstViewController.m */,
+				98F8D5261418D34C001F9E1E /* SecondViewController.h */,
+				98F8D5271418D34C001F9E1E /* SecondViewController.m */,
+				98F8D5291418D34C001F9E1E /* FirstView.xib */,
+				98F8D52C1418D34C001F9E1E /* SecondView.xib */,
+				98E8DE9A141BE472006A4DF3 /* Images */,
+				98F8D5151418D34B001F9E1E /* Supporting Files */,
+			);
+			path = "City Compass";
+			sourceTree = "<group>";
+		};
+		98F8D5151418D34B001F9E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98F8D5161418D34B001F9E1E /* City Compass-Info.plist */,
+				98F8D5171418D34B001F9E1E /* InfoPlist.strings */,
+				98F8D51A1418D34B001F9E1E /* main.m */,
+				98F8D51C1418D34B001F9E1E /* City Compass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98F8D5091418D34B001F9E1E /* City Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F8D5311418D34C001F9E1E /* Build configuration list for PBXNativeTarget "City Compass" */;
+			buildPhases = (
+				98F8D5061418D34B001F9E1E /* Sources */,
+				98F8D5071418D34B001F9E1E /* Frameworks */,
+				98F8D5081418D34B001F9E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "City Compass";
+			productName = "City Compass";
+			productReference = 98F8D50A1418D34B001F9E1E /* City Compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F8D5011418D34A001F9E1E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 98F8D5041418D34A001F9E1E /* Build configuration list for PBXProject "City Compass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98F8D4FF1418D34A001F9E1E;
+			productRefGroup = 98F8D50B1418D34B001F9E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98F8D5091418D34B001F9E1E /* City Compass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98F8D5081418D34B001F9E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F8D5191418D34B001F9E1E /* InfoPlist.strings in Resources */,
+				98F8D5221418D34B001F9E1E /* MainWindow.xib in Resources */,
+				98F8D52B1418D34C001F9E1E /* FirstView.xib in Resources */,
+				98F8D52E1418D34C001F9E1E /* SecondView.xib in Resources */,
+				98D6752B1419A73000A8C2C7 /* compass.png in Resources */,
+				98C6D952141AECF60066D468 /* needle.png in Resources */,
+				983594CE141D1E7C00884B91 /* compassIcon@2x.png in Resources */,
+				983594CF141D1E7C00884B91 /* compassIcon.png in Resources */,
+				983594D3141D207C00884B91 /* info.png in Resources */,
+				983594D4141D207C00884B91 /* info@2x.png in Resources */,
+				984C1E5F141D830B00BA4551 /* icon.png in Resources */,
+				984C1E61141D831C00BA4551 /* icon@2x.png in Resources */,
+				984C1E63141D832800BA4551 /* Default.png in Resources */,
+				984C1E65141D837F00BA4551 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98F8D5061418D34B001F9E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F8D51B1418D34B001F9E1E /* main.m in Sources */,
+				98F8D51F1418D34B001F9E1E /* City_CompassAppDelegate.m in Sources */,
+				98F8D5251418D34C001F9E1E /* FirstViewController.m in Sources */,
+				98F8D5281418D34C001F9E1E /* SecondViewController.m in Sources */,
+				987550E114195354002E2390 /* BSGoogleV2KmlParser.m in Sources */,
+				987550E214195354002E2390 /* BSGoogleV3KmlParser.m in Sources */,
+				987550EB14195362002E2390 /* BSForwardGeocoder.m in Sources */,
+				987550EC14195362002E2390 /* BSKmlResult.m in Sources */,
+				987550ED14195362002E2390 /* BSAddressComponent.m in Sources */,
+				987550EE14195362002E2390 /* NSString+URLEncode.m in Sources */,
+				9838A87A141AD91000750AD2 /* FRCurvedTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98F8D5171418D34B001F9E1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F8D5181418D34B001F9E1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98F8D5201418D34B001F9E1E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F8D5211418D34B001F9E1E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		98F8D5291418D34C001F9E1E /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F8D52A1418D34C001F9E1E /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		98F8D52C1418D34C001F9E1E /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F8D52D1418D34C001F9E1E /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98F8D52F1418D34C001F9E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98F8D5301418D34C001F9E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Fahd Rafi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fahd Rafi";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "265A35D6-B000-4A5A-AD96-9C352848CBAB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "265A35D6-B000-4A5A-AD96-9C352848CBAB";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98F8D5321418D34C001F9E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "City Compass/City Compass-Prefix.pch";
+				INFOPLIST_FILE = "City Compass/City Compass-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98F8D5331418D34C001F9E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Fahd Rafi";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "City Compass/City Compass-Prefix.pch";
+				INFOPLIST_FILE = "City Compass/City Compass-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "265A35D6-B000-4A5A-AD96-9C352848CBAB";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98F8D5041418D34A001F9E1E /* Build configuration list for PBXProject "City Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F8D52F1418D34C001F9E1E /* Debug */,
+				98F8D5301418D34C001F9E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F8D5311418D34C001F9E1E /* Build configuration list for PBXNativeTarget "City Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F8D5321418D34C001F9E1E /* Debug */,
+				98F8D5331418D34C001F9E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F8D5011418D34A001F9E1E /* Project object */;
+}
